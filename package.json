@@ -1,7 +1,7 @@
 {
   "name": "basework-cli",
   "version": "0.0.1",
-  "description": "A handy CLI tool to run basework projects",
+  "description": "The accompanying command-line tool for Basework",
   "main": "index.js",
   "bin": {
     "basework": "./index.js"
