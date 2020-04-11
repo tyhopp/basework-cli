@@ -1,0 +1,19 @@
+{
+  "name": "basework-cli",
+  "version": "0.0.1",
+  "description": "A handy CLI tool to run basework projects",
+  "main": "index.js",
+  "bin": {
+    "basework": "./index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "cli",
+    "basework"
+  ],
+  "author": "Ty Hopp",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
