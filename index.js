@@ -4,6 +4,10 @@ const cli = require('yargs');
 
 cli.scriptName('basework')
   .usage('Usage: basework <command> [options]')
+  .command('new', '', {}, argv => { // TODO - Pass arguments for which project to generate
+    const { generate } = require('basework/generate');
+    generate();
+  })
   .command('start', '', {}, argv => {
     const { serve } = require('basework/serve');
     serve();
