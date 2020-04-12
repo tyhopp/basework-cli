@@ -12,7 +12,7 @@
     "basework"
   ],
   "author": "Ty Hopp",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "yargs": "^15.3.1"
   }
