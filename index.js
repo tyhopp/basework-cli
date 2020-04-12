@@ -2,9 +2,13 @@
 
 const cli = require('yargs');
 
-  cli.scriptName('basework')
+cli.scriptName('basework')
   .usage('Usage: basework <command> [options]')
-  .command('build', '', yargs => {}, argv => {
+  .command('start', '', {}, argv => {
+    const { serve } = require('basework/serve');
+    serve();
+  })
+  .command('build', '', {}, argv => {
     const { bootstrap } = require('basework/bootstrap');
     bootstrap();
   })
