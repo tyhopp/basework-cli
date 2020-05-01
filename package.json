@@ -1,6 +1,6 @@
 {
   "name": "basework-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The accompanying command-line tool for Basework",
   "author": "Ty Hopp",
   "main": "index.js",
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "basework-core": "0.1.0",
+    "basework-core": "0.1.1",
     "yargs": "^15.3.1"
   }
 }
