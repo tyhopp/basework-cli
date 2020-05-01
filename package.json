@@ -1,20 +1,19 @@
 {
   "name": "basework-cli",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "The accompanying command-line tool for Basework",
   "author": "Ty Hopp",
   "main": "index.js",
   "bin": {
     "basework": "./index.js"
   },
-  "preferGlobal": true,
   "keywords": [
     "cli",
     "basework"
   ],
   "license": "MIT",
   "dependencies": {
-    "basework-core": "0.0.3",
+    "basework-core": "0.1.0",
     "yargs": "^15.3.1"
   }
 }
